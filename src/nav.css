@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1 hover{
+    color:blue;
+}
+ nav {
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    height: 75px;
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+
+   }
+  
+  nav ul {
+    list-style: none;
+    display: flex; 
+     flex-direction: row;
+     gap: 1rem; 
+     margin-left: auto; 
+     } 
+
+   .nav-item{
+     margin:0 15px;
+   } 
+ .nav-item a{
+    color:white;
+    text-decoration: none;
+    padding:5px 0;
+  }
+  
+   .nav-item a::after {
+    content:"";
+    height:2px;
+    display:block;
+    width:0;
+    background:white;
+    transition:width 0.3s ease;
+  }
+   
+   .nav-item a:hover::after {
+    width:100%;
+    cursor:pointer;
+  }
+  .resume{
+    padding: 5px;
+  }
+  

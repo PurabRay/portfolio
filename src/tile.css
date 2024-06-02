@@ -1,0 +1,26 @@
+.tile {
+    /* Basic tile styling */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    max-width: 300px; 
+}
+
+.tile img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.tile .link {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.left {
+    align-self: flex-end;
+}
