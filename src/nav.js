@@ -1,6 +1,6 @@
 import './nav.css'
 import 'react-icons/bs';
-import { BsFillMoonStarsFill } from 'react-icons/bs';
+//import { BsFillMoonStarsFill } from 'react-icons/bs';
 import logo from './images/logo192.png'
 function Nav(){
     return(
@@ -9,7 +9,7 @@ function Nav(){
             <img src={logo} alt="logo" className="w-8 h-8 mr-2" />
         <h1 className="font-poppins text-xl cursor-pointer hover:to to-blue-700">Explore</h1>
         <ul className="flex items-center">
-            <BsFillMoonStarsFill className=" cursor-pointer text-2xl"/>
+           /*<BsFillMoonStarsFill className=" cursor-pointer text-2xl"/>/*
           <li className='nav-item cursor-pointer'>
             <a>Home</a>
           </li>
