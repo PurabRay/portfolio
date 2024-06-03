@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BsFillMoonStarsFill } from 'react-icons/bs';
+
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import './exp.css';
 import image from './devimg.jpg';
