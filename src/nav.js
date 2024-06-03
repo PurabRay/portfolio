@@ -1,6 +1,6 @@
 import './nav.css'
-import 'react-icons/bs';
-//import { BsFillMoonStarsFill } from 'react-icons/bs';
+//import 'react-icons/bs';
+import { BsFillMoonStarsFill } from 'react-icons/bs';
 import logo from './images/logo192.png'
 function Nav(){
     return(
