@@ -30,7 +30,7 @@ function App() {
             "Hello there, I am Purab Ray",
             "A student passionate about learning and exploring",
             
-            "I am an aspiring full-stack developer",
+            "I am an aspiring full-stack and AI developer",
           ]}
           typingSpeed={100}
           deletingSpeed={50}
