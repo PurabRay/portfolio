@@ -15,21 +15,21 @@ import "./exp.css"
                  <span></span>
                  <span></span>
                  <span></span>
-                 Bacardi
+                 Full stack developer-Innoverv
                  </a>
                  <a href='#' className="ani">
                  <span></span>
                  <span></span>
                  <span></span>
                  <span></span>
-                Aloo Tikki
+                Frontend developer-Zinier
             </a>
             <a href='#' className="ani">
                  <span></span>
                  <span></span>
                  <span></span>
                  <span></span>
-                Sphagetti
+                worked on several projects in College
             </a>
             </div>
          
