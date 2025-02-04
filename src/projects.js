@@ -17,15 +17,22 @@ import './projects.css';
 
 const Projects = () => {
   return (
-    <div className="bg-[#0a192f] min-h-screen flex flex-col items-center justify-center py-20">
-      <h1 className="text-4xl font-bold text-blue-300 mb-6">Projects</h1>
-      <ul className="text-lg text-white space-y-4">
-        <li className="hover:text-blue-300 transition duration-200">• Weather App</li>
-        <li className="hover:text-blue-300 transition duration-200">• Product Service Backend</li>
-        <li className="hover:text-blue-300 transition duration-200">• Portfolio</li>
+    <div className="bg-[#0a192f] min-h-screen flex flex-col items-center justify-center py-20 px-4">
+      <h1 className="text-4xl md:text-6xl font-bold text-blue-300 mb-10">Projects</h1>
+      <ul className="space-y-6 text-center">
+        <li className="text-2xl text-white hover:text-blue-300 transition-all duration-300 transform hover:scale-105">
+          Recipe Discovery
+        </li>
+        <li className="text-2xl text-white hover:text-blue-300 transition-all duration-300 transform hover:scale-105">
+          Vendor Portal System
+        </li>
+        <li className="text-2xl text-white hover:text-blue-300 transition-all duration-300 transform hover:scale-105">
+          Expense Tracker App
+        </li>
       </ul>
     </div>
   );
 };
 
 export default Projects;
+
