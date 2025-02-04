@@ -10,21 +10,21 @@ import "./exp.css"
                 </header>
                 <div className="space-y-8"></div>
                 </div>
-            <a href='#' className="ani">
+            <a href='#' className="ani text-xs" text-14px>
                 <span></span>
                  <span></span>
                  <span></span>
                  <span></span>
                  Full stack developer-Innoverv
                  </a>
-                 <a href='#' className="ani">
+                 <a href='#' className="ani text-xs">
                  <span></span>
                  <span></span>
                  <span></span>
                  <span></span>
                 Frontend developer-Zinier
             </a>
-            <a href='#' className="ani">
+            <a href='#' className="ani text-xs">
                  <span></span>
                  <span></span>
                  <span></span>
